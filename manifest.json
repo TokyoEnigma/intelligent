@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+	"name": "Intelligent",
+	"short_name": "Intel",
+	"description": "Searches for the selected text in threat intel sources (VirsTotal, URLscan, etc.)",
+	"version": "1.0.0",
+	"minimum_chrome_version": "38",
+	"permissions": [
+	"contextMenus",
+	"storage",
+	"tabs"],
+	//Image Source: https://cdn-icons-png.flaticon.com/128/1022/1022381.png
+	"icons": {
+	  "128": "assets/search.png"
+	},
+	"browser_action": {
+	  "default_icon": {
+	  "16": "assets/search.png",
+	  "48": "assets/search_48.png",
+	  "128": "assets/search.png"
+	  }
+	},
+	"background": {"page": "background.html"}
+}
